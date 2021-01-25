@@ -1,6 +1,9 @@
 ## setTimeout(callback, delay, rest)
 
-设定一个定时器。在定时到期以后执行注册的回调函数
+**设定一个定时器。在定时到期以后执行注册的回调函数**
+	setTimeout(function() {
+				alert("Hello");
+			}, 3000);
 
 **参数说明**
 
